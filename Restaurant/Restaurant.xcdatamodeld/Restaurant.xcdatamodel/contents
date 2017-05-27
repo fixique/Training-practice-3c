@@ -1,4 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Hippodrome" representedClassName="Hippodrome" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toRaces" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Races" inverseName="toHippodrome" inverseEntity="Races" syncable="YES"/>
+    </entity>
+    <entity name="Horse" representedClassName="Horse" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toOwner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Owner" inverseName="toHorse" inverseEntity="Owner" syncable="YES"/>
+        <relationship name="toResult" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Results" inverseName="toHorse" inverseEntity="Results" syncable="YES"/>
+    </entity>
+    <entity name="Jockey" representedClassName="Jockey" syncable="YES">
+        <attribute name="birthDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="toResults" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Results" inverseName="toJockey" inverseEntity="Results" syncable="YES"/>
+    </entity>
+    <entity name="Owner" representedClassName="Owner" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="passportNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toHorse" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Horse" inverseName="toOwner" inverseEntity="Horse" syncable="YES"/>
+    </entity>
+    <entity name="Races" representedClassName="Races" syncable="YES">
+        <attribute name="dateRace" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="toHippodrome" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Hippodrome" inverseName="toRaces" inverseEntity="Hippodrome" syncable="YES"/>
+        <relationship name="toResults" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Results" inverseName="toRaces" inverseEntity="Results" syncable="YES"/>
+    </entity>
+    <entity name="Results" representedClassName="Results" syncable="YES">
+        <attribute name="place" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="resultTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="toHorse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Horse" inverseName="toResult" inverseEntity="Horse" syncable="YES"/>
+        <relationship name="toJockey" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jockey" inverseName="toResults" inverseEntity="Jockey" syncable="YES"/>
+        <relationship name="toRaces" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Races" inverseName="toResults" inverseEntity="Races" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Hippodrome" positionX="-335" positionY="342" width="128" height="90"/>
+        <element name="Horse" positionX="369" positionY="-18" width="128" height="118"/>
+        <element name="Jockey" positionX="612" positionY="135" width="128" height="103"/>
+        <element name="Owner" positionX="-110" positionY="-18" width="128" height="103"/>
+        <element name="Races" positionX="-54" positionY="378" width="128" height="88"/>
+        <element name="Results" positionX="108" positionY="162" width="128" height="120"/>
+    </elements>
 </model>

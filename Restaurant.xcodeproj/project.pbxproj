@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0796601ED8C61D002F8397 /* OwnersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07965E1ED8C61D002F8397 /* OwnersVC.swift */; };
+		4D07967C1ED8DD71002F8397 /* HorsesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07967B1ED8DD71002F8397 /* HorsesVC.swift */; };
+		4D0796961ED8F354002F8397 /* JockeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0796951ED8F354002F8397 /* JockeyVC.swift */; };
+		4D1FFF081ED90F97006B52F4 /* Hippodrome+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFEFC1ED90F97006B52F4 /* Hippodrome+CoreDataClass.swift */; };
+		4D1FFF091ED90F97006B52F4 /* Hippodrome+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFEFD1ED90F97006B52F4 /* Hippodrome+CoreDataProperties.swift */; };
+		4D1FFF0A1ED90F97006B52F4 /* Races+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFEFE1ED90F97006B52F4 /* Races+CoreDataClass.swift */; };
+		4D1FFF0B1ED90F97006B52F4 /* Races+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFEFF1ED90F97006B52F4 /* Races+CoreDataProperties.swift */; };
+		4D1FFF0E1ED90F97006B52F4 /* Horse+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFF021ED90F97006B52F4 /* Horse+CoreDataClass.swift */; };
+		4D1FFF0F1ED90F97006B52F4 /* Horse+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFF031ED90F97006B52F4 /* Horse+CoreDataProperties.swift */; };
+		4D1FFF101ED90F97006B52F4 /* Owner+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFF041ED90F97006B52F4 /* Owner+CoreDataClass.swift */; };
+		4D1FFF111ED90F97006B52F4 /* Owner+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFF051ED90F97006B52F4 /* Owner+CoreDataProperties.swift */; };
+		4D1FFF121ED90F97006B52F4 /* Jockey+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFF061ED90F97006B52F4 /* Jockey+CoreDataClass.swift */; };
+		4D1FFF131ED90F97006B52F4 /* Jockey+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFF071ED90F97006B52F4 /* Jockey+CoreDataProperties.swift */; };
+		4D1FFF161ED9132A006B52F4 /* Results+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFF141ED9132A006B52F4 /* Results+CoreDataClass.swift */; };
+		4D1FFF171ED9132A006B52F4 /* Results+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FFF151ED9132A006B52F4 /* Results+CoreDataProperties.swift */; };
 		4D2F46DF1ED624D200F2198F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F46DE1ED624D200F2198F /* AppDelegate.swift */; };
-		4D2F46E11ED624D200F2198F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F46E01ED624D200F2198F /* ViewController.swift */; };
+		4D2F46E11ED624D200F2198F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F46E01ED624D200F2198F /* MainVC.swift */; };
 		4D2F46E41ED624D200F2198F /* Restaurant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F46E21ED624D200F2198F /* Restaurant.xcdatamodeld */; };
 		4D2F46E61ED624D200F2198F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2F46E51ED624D200F2198F /* Assets.xcassets */; };
 		4D2F46E91ED624D200F2198F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2F46E71ED624D200F2198F /* Main.storyboard */; };
+		4DC0E7851ED8FC120084154B /* HippodromesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E7841ED8FC120084154B /* HippodromesVC.swift */; };
+		4DC0E7871ED900230084154B /* RacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E7861ED900220084154B /* RacesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D07965E1ED8C61D002F8397 /* OwnersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnersVC.swift; sourceTree = "<group>"; };
+		4D07967B1ED8DD71002F8397 /* HorsesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorsesVC.swift; sourceTree = "<group>"; };
+		4D0796951ED8F354002F8397 /* JockeyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JockeyVC.swift; sourceTree = "<group>"; };
+		4D1FFEFC1ED90F97006B52F4 /* Hippodrome+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hippodrome+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4D1FFEFD1ED90F97006B52F4 /* Hippodrome+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hippodrome+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D1FFEFE1ED90F97006B52F4 /* Races+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Races+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4D1FFEFF1ED90F97006B52F4 /* Races+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Races+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D1FFF021ED90F97006B52F4 /* Horse+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Horse+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4D1FFF031ED90F97006B52F4 /* Horse+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Horse+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D1FFF041ED90F97006B52F4 /* Owner+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Owner+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4D1FFF051ED90F97006B52F4 /* Owner+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Owner+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D1FFF061ED90F97006B52F4 /* Jockey+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Jockey+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4D1FFF071ED90F97006B52F4 /* Jockey+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Jockey+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D1FFF141ED9132A006B52F4 /* Results+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Results+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4D1FFF151ED9132A006B52F4 /* Results+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Results+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4D2F46DB1ED624D200F2198F /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2F46DE1ED624D200F2198F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D2F46E01ED624D200F2198F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D2F46E01ED624D200F2198F /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4D2F46E31ED624D200F2198F /* Restaurant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Restaurant.xcdatamodel; sourceTree = "<group>"; };
 		4D2F46E51ED624D200F2198F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2F46E81ED624D200F2198F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D2F46EA1ED624D200F2198F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC0E7841ED8FC120084154B /* HippodromesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HippodromesVC.swift; sourceTree = "<group>"; };
+		4DC0E7861ED900220084154B /* RacesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +69,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D07967A1ED8DD4D002F8397 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D1FFEFC1ED90F97006B52F4 /* Hippodrome+CoreDataClass.swift */,
+				4D1FFEFD1ED90F97006B52F4 /* Hippodrome+CoreDataProperties.swift */,
+				4D1FFEFE1ED90F97006B52F4 /* Races+CoreDataClass.swift */,
+				4D1FFEFF1ED90F97006B52F4 /* Races+CoreDataProperties.swift */,
+				4D1FFF021ED90F97006B52F4 /* Horse+CoreDataClass.swift */,
+				4D1FFF031ED90F97006B52F4 /* Horse+CoreDataProperties.swift */,
+				4D1FFF141ED9132A006B52F4 /* Results+CoreDataClass.swift */,
+				4D1FFF151ED9132A006B52F4 /* Results+CoreDataProperties.swift */,
+				4D1FFF041ED90F97006B52F4 /* Owner+CoreDataClass.swift */,
+				4D1FFF051ED90F97006B52F4 /* Owner+CoreDataProperties.swift */,
+				4D1FFF061ED90F97006B52F4 /* Jockey+CoreDataClass.swift */,
+				4D1FFF071ED90F97006B52F4 /* Jockey+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		4D2F46D21ED624D200F2198F = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +107,18 @@
 		4D2F46DD1ED624D200F2198F /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
-				4D2F46DE1ED624D200F2198F /* AppDelegate.swift */,
-				4D2F46E01ED624D200F2198F /* ViewController.swift */,
+				4D07967A1ED8DD4D002F8397 /* Model */,
 				4D2F46E51ED624D200F2198F /* Assets.xcassets */,
 				4D2F46E71ED624D200F2198F /* Main.storyboard */,
 				4D2F46EA1ED624D200F2198F /* Info.plist */,
+				4D2F46DE1ED624D200F2198F /* AppDelegate.swift */,
 				4D2F46E21ED624D200F2198F /* Restaurant.xcdatamodeld */,
+				4D2F46E01ED624D200F2198F /* MainVC.swift */,
+				4D07965E1ED8C61D002F8397 /* OwnersVC.swift */,
+				4D07967B1ED8DD71002F8397 /* HorsesVC.swift */,
+				4D0796951ED8F354002F8397 /* JockeyVC.swift */,
+				4DC0E7841ED8FC120084154B /* HippodromesVC.swift */,
+				4DC0E7861ED900220084154B /* RacesVC.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -136,9 +195,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2F46E11ED624D200F2198F /* ViewController.swift in Sources */,
+				4D1FFF171ED9132A006B52F4 /* Results+CoreDataProperties.swift in Sources */,
+				4D1FFF081ED90F97006B52F4 /* Hippodrome+CoreDataClass.swift in Sources */,
+				4D1FFF101ED90F97006B52F4 /* Owner+CoreDataClass.swift in Sources */,
+				4D0796961ED8F354002F8397 /* JockeyVC.swift in Sources */,
+				4D0796601ED8C61D002F8397 /* OwnersVC.swift in Sources */,
+				4D2F46E11ED624D200F2198F /* MainVC.swift in Sources */,
+				4D1FFF131ED90F97006B52F4 /* Jockey+CoreDataProperties.swift in Sources */,
+				4D1FFF0F1ED90F97006B52F4 /* Horse+CoreDataProperties.swift in Sources */,
+				4D1FFF091ED90F97006B52F4 /* Hippodrome+CoreDataProperties.swift in Sources */,
+				4D1FFF111ED90F97006B52F4 /* Owner+CoreDataProperties.swift in Sources */,
+				4D07967C1ED8DD71002F8397 /* HorsesVC.swift in Sources */,
 				4D2F46DF1ED624D200F2198F /* AppDelegate.swift in Sources */,
+				4D1FFF0A1ED90F97006B52F4 /* Races+CoreDataClass.swift in Sources */,
+				4DC0E7851ED8FC120084154B /* HippodromesVC.swift in Sources */,
 				4D2F46E41ED624D200F2198F /* Restaurant.xcdatamodeld in Sources */,
+				4D1FFF0B1ED90F97006B52F4 /* Races+CoreDataProperties.swift in Sources */,
+				4D1FFF0E1ED90F97006B52F4 /* Horse+CoreDataClass.swift in Sources */,
+				4D1FFF161ED9132A006B52F4 /* Results+CoreDataClass.swift in Sources */,
+				4DC0E7871ED900230084154B /* RacesVC.swift in Sources */,
+				4D1FFF121ED90F97006B52F4 /* Jockey+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +371,7 @@
 				4D2F46EF1ED624D200F2198F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
